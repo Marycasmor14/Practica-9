@@ -54,6 +54,146 @@ const serviciosExpress = [
         tiempo: "1-3 dias",
         precio: "Desde $7,000 MXN"
     },
+
+{
+id:7,
+nombre: "Construcción de muros y bardas",
+categoria: "Estructura",
+imagen: "img/serviciosExpress/muros.jpg",
+descripcion: "Construcción de muros y bardas resistentes para delimitar y proteger espacios residenciales, comerciales e industriales",
+tiempo: "2-5 dias",
+precio: "Desde $8,500 MXN"
+},
+
+{
+id:8,
+nombre: "Levantamiento de columnas y trabes",
+categoria: "Estructura",
+imagen: "img/serviciosExpress/columnas.jpg",
+descripcion: "Construcción de columnas y trabes de concreto para brindar soporte y estabilidad a la estructura",
+tiempo: "3-7 dias",
+precio: "Desde $12,000 MXN"
+},
+
+{
+id:9,
+nombre: "Construcción de losas",
+categoria: "Estructura",
+imagen: "img/serviciosExpress/losas.jpg",
+descripcion: "Colado y construcción de losas de concreto para techos y entrepisos con alta resistencia",
+tiempo: "4-8 dias",
+precio: "Desde $18,000 MXN"
+},
+
+{
+id:10,
+nombre: "Albañilería general",
+categoria: "Estructura",
+imagen: "img/serviciosExpress/albanileria.jpg",
+descripcion: "Trabajos de albañilería en construcción, ampliaciones y reparaciones para todo tipo de proyectos",
+tiempo: "1-5 dias",
+precio: "Desde $4,500 MXN"
+},
+
+{
+id:11,
+nombre: "Instalación hidráulica",
+categoria: "Instalaciones",
+imagen: "img/serviciosExpress/hidraulica.jpg",
+descripcion: "Instalación y reparación de tuberías hidráulicas para suministro eficiente de agua",
+tiempo: "1-4 dias",
+precio: "Desde $5,000 MXN"
+},
+
+{
+id:12,
+nombre: "Instalación sanitaria",
+categoria: "Instalaciones",
+imagen: "img/serviciosExpress/sanitaria.jpg",
+descripcion: "Montaje de sistemas sanitarios y tuberías para desagüe y manejo adecuado de aguas residuales",
+tiempo: "2-5 dias",
+precio: "Desde $6,500 MXN"
+},
+
+{
+id:13,
+nombre: "Instalación de drenaje",
+categoria: "Instalaciones",
+imagen: "img/serviciosExpress/drenaje.jpg",
+descripcion: "Construcción e instalación de sistemas de drenaje para viviendas y proyectos comerciales",
+tiempo: "2-6 dias",
+precio: "Desde $7,500 MXN"
+},
+
+{
+id:14,
+nombre: "Impermeabilización",
+categoria: "Acabados",
+imagen: "img/serviciosExpress/impermeabilizacion.jpg",
+descripcion: "Aplicación de impermeabilizantes para proteger superficies contra humedad y filtraciones",
+tiempo: "1-2 dias",
+precio: "Desde $3,500 MXN"
+},
+
+{
+id:15,
+nombre: "Colocación de pisos y azulejos",
+categoria: "Acabados",
+imagen: "img/serviciosExpress/pisos.jpg",
+descripcion: "Instalación profesional de pisos, azulejos y recubrimientos para interiores y exteriores",
+tiempo: "2-6 dias",
+precio: "Desde $5,500 MXN"
+},
+
+{
+id:16,
+nombre: "Carpintería residencial y comercial",
+categoria: "Acabados",
+imagen: "img/serviciosExpress/carpinteria.jpg",
+descripcion: "Fabricación e instalación de muebles, puertas y acabados de madera para hogares y negocios",
+tiempo: "3-7 dias",
+precio: "Desde $8,000 MXN"
+},
+
+{
+id:17,
+nombre: "Herrería y cancelería",
+categoria: "Acabados",
+imagen: "img/serviciosExpress/herreria.jpg",
+descripcion: "Fabricación e instalación de estructuras metálicas, rejas, barandales y cancelería de aluminio",
+tiempo: "2-6 dias",
+precio: "Desde $7,000 MXN"
+},
+
+{
+id:18,
+nombre: "Instalación de puertas y ventanas",
+categoria: "Acabados",
+imagen: "img/serviciosExpress/puertas.jpg",
+descripcion: "Colocación de puertas y ventanas de aluminio, madera o vidrio con acabados de calidad",
+tiempo: "1-3 dias",
+precio: "Desde $4,000 MXN"
+},
+
+{
+id:19,
+nombre: "Construcción de cisternas",
+categoria: "Estructura",
+imagen: "img/serviciosExpress/cisternas.jpg",
+descripcion: "Diseño y construcción de cisternas para almacenamiento seguro y eficiente de agua",
+tiempo: "4-8 dias",
+precio: "Desde $15,000 MXN"
+},
+
+{
+id:20,
+nombre: "Construcción de banquetas y guarniciones",
+categoria: "Urbanización",
+imagen: "img/serviciosExpress/banquetas.jpg",
+descripcion: "Construcción de banquetas y guarniciones de concreto para proyectos urbanos y residenciales",
+tiempo: "2-5 dias",
+precio: "Desde $9,000 MXN"
+},
 ];
 
 
