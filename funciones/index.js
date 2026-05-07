@@ -1,35 +1,25 @@
 // Función para mover el carrusel con las flechas
 function moveSlide(trackId, dotsId, direction) {
     const track = document.getElementById(trackId); 
+    if (!track) return;
     
-    // Si no existe el carrusel, no hace nada
-    if (!track) return; 
-
     const slides = track.querySelectorAll('.carousel-slide');
     const dotsContainer = document.getElementById(dotsId);
     const dots = dotsContainer.querySelectorAll('.dot');
     
-    let activeIndex = Array.from(slides).findIndex(slide => 
-        slide.classList.contains('active')
-    );
+    let activeIndex = Array.from(slides).findIndex(slide => slide.classList.contains('active'));
 
-    // Quita activo actual
     slides[activeIndex].classList.remove('active');
     dots[activeIndex].classList.remove('active');
 
-    // Calcula nuevo índice
     let newIndex = activeIndex + direction;
-
     if (newIndex >= slides.length) newIndex = 0;
     if (newIndex < 0) newIndex = slides.length - 1;
 
-    // Activa nuevo slide
     slides[newIndex].classList.add('active');
     dots[newIndex].classList.add('active');
 }
 
-
-// Función para saltar a una imagen específica (puntitos)
 function jumpToSlide(trackId, dotsId, index) {
     const track = document.getElementById(trackId);
     if (!track) return;
@@ -38,17 +28,15 @@ function jumpToSlide(trackId, dotsId, index) {
     const dotsContainer = document.getElementById(dotsId);
     const dots = dotsContainer.querySelectorAll('.dot');
 
-    // Quitar todos los activos
-    slides.forEach(slide => slide.classList.remove('active'));
-    dots.forEach(dot => dot.classList.remove('active'));
+    let activeIndex = Array.from(slides).findIndex(slide => slide.classList.contains('active'));
+    slides[activeIndex].classList.remove('active');
+    dots[activeIndex].classList.remove('active');
 
-    // Activar el seleccionado
     slides[index].classList.add('active');
     dots[index].classList.add('active');
 }
 
-
-// Auto-play cada 3 segundos
+// Auto-play: Cambia la imagen automáticamente cada 3 segundos
 setInterval(() => {
     moveSlide('track1', 'dots1', 1);
     moveSlide('track2', 'dots2', 1);
